@@ -9,6 +9,9 @@ while True:
         task = input("Enter a task: ")
         tasks.append(task)
         print(tasks)
+    elif choice == "2":
+        for t in tasks:
+            print(t)
     elif choice == "3":
         print("Goodbye! ")
         break
